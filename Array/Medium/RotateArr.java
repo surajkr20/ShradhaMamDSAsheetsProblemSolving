@@ -24,5 +24,7 @@ public class RotateArr {
         System.out.println(Arrays.toString(arr));
         rotate(arr, k);
         System.out.println(Arrays.toString(arr));
+
+        Arrays.sort(arr);
     }
 }
